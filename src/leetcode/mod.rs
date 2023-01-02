@@ -1,2 +1,2 @@
-pub mod p290_word_pattern;
-pub mod p290_word_pattern_test;
+pub mod p520_detect_capital;
+pub mod p520_detect_capital_test;

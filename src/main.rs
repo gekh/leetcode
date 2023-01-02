@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p290_word_pattern_test::test();
+    leetcode::p520_detect_capital_test::test();
 }
