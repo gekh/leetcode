@@ -1,2 +1,2 @@
-pub mod p980_unique_paths_iii;
-pub mod p980_unique_paths_iii_test;
+pub mod p944_delete_columns_to_make_sorted;
+pub mod p944_delete_columns_to_make_sorted_test;

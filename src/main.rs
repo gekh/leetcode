@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p980_unique_paths_iii_test::test();
+    leetcode::p944_delete_columns_to_make_sorted_test::test();
 }
