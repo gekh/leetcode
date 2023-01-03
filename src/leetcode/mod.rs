@@ -1,2 +1,2 @@
-pub mod p977_squares_of_a_sorted_array;
-pub mod p977_squares_of_a_sorted_array_test;
+pub mod p189_rotate_array;
+pub mod p189_rotate_array_test;
