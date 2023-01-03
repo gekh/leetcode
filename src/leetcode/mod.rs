@@ -1,2 +1,2 @@
-pub mod p944_delete_columns_to_make_sorted;
-pub mod p944_delete_columns_to_make_sorted_test;
+pub mod p977_squares_of_a_sorted_array;
+pub mod p977_squares_of_a_sorted_array_test;

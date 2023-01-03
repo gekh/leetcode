@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p944_delete_columns_to_make_sorted_test::test();
+    leetcode::p977_squares_of_a_sorted_array_test::test();
 }
