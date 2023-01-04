@@ -1,2 +1,2 @@
-pub mod p2244_min_rounds_to_complete_all_tasks;
-pub mod p2244_min_rounds_to_complete_all_tasks_test;
+pub mod p283_move_zeros;
+pub mod p283_move_zeros_test;
