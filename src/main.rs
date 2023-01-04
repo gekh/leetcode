@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p189_rotate_array_test::test();
+    leetcode::p2244_min_rounds_to_complete_all_tasks_test::test();
 }

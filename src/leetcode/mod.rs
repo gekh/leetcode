@@ -1,2 +1,2 @@
-pub mod p189_rotate_array;
-pub mod p189_rotate_array_test;
+pub mod p2244_min_rounds_to_complete_all_tasks;
+pub mod p2244_min_rounds_to_complete_all_tasks_test;
