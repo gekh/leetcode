@@ -1,2 +1,2 @@
-pub mod p283_move_zeros;
-pub mod p283_move_zeros_test;
+pub mod p167_two_sum_ii;
+pub mod p167_two_sum_ii_test;

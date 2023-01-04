@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p283_move_zeros_test::test();
+    leetcode::p167_two_sum_ii_test::test();
 }
