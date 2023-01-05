@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p452_min_number_of_arrow_to_burst_baloons_test::test();
+    leetcode::p557_reverse_words_in_a_string_iii_test::test();
 }
