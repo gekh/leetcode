@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p167_two_sum_ii_test::test();
+    leetcode::p452_min_number_of_arrow_to_burst_baloons_test::test();
 }
