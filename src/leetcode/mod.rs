@@ -1,2 +1,2 @@
-pub mod p557_reverse_words_in_a_string_iii;
-pub mod p557_reverse_words_in_a_string_iii_test;
+pub mod p1833_max_ice_cream_bars;
+pub mod p1833_max_ice_cream_bars_test;
