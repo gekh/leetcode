@@ -1,2 +1,2 @@
-pub mod p1833_max_ice_cream_bars;
-pub mod p1833_max_ice_cream_bars_test;
+pub mod p19_remove_nth_node_from_end_of_list;
+pub mod p19_remove_nth_node_from_end_of_list_test;
