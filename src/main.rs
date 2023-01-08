@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p733_flood_fill_test::test();
+    leetcode::p695_max_area_of_island_test::test();
 }
