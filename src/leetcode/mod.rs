@@ -1,2 +1,2 @@
-pub mod p567_permutation_in_string;
-pub mod p567_permutation_in_string_test;
+pub mod p149_max_points_on_a_line;
+pub mod p149_max_points_on_a_line_test;
