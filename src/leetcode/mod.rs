@@ -1,2 +1,2 @@
-pub mod p3_longest_substring_without_repeating_chars;
-pub mod p3_longest_substring_without_repeating_chars_test;
+pub mod p567_permutation_in_string;
+pub mod p567_permutation_in_string_test;
