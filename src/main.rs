@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p695_max_area_of_island_test::test();
+    leetcode::p542_o1_matrix_test::test();
 }

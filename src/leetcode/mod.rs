@@ -1,2 +1,2 @@
-pub mod p695_max_area_of_island;
-pub mod p695_max_area_of_island_test;
+pub mod p542_o1_matrix;
+pub mod p542_o1_matrix_test;
