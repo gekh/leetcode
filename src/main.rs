@@ -1,5 +1,5 @@
 mod leetcode;
 
 fn main() {
-    leetcode::p542_o1_matrix_test::test();
+    leetcode::p994_rotting_oranges_test::test();
 }
