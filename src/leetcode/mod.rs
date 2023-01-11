@@ -1,2 +1,2 @@
-pub mod p1443_min_time_to_collect_all_apples_in_a_tree;
-pub mod p1443_min_time_to_collect_all_apples_in_a_tree_test;
+pub mod p21_merge_two_sorted_lists;
+pub mod p21_merge_two_sorted_lists_test;
