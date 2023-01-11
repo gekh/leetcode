@@ -1,2 +1,2 @@
-pub mod p994_rotting_oranges;
-pub mod p994_rotting_oranges_test;
+pub mod p1443_min_time_to_collect_all_apples_in_a_tree;
+pub mod p1443_min_time_to_collect_all_apples_in_a_tree_test;
