@@ -1,2 +1,2 @@
-pub mod p21_merge_two_sorted_lists;
-pub mod p21_merge_two_sorted_lists_test;
+pub mod p206_reverse_linked_list;
+pub mod p206_reverse_linked_list_test;
