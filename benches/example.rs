@@ -1,8 +1,8 @@
 #[macro_use]
 extern crate bencher;
 
-#[path = "../src/leetcode/mod.rs"]
-mod leetcode;
+// #[path = "../src/leetcode/mod.rs"]
+// mod leetcode;
 
 
 use bencher::Bencher;
@@ -10,7 +10,7 @@ use bencher::Bencher;
 fn leet(bench: &mut Bencher) {
   bench.iter(|| {
     // for _ in 0..1000 {
-      leetcode::p1519_num_of_nodes_in_subtree_with_the_same_label_test::test();
+      // leetcode::p1519_num_of_nodes_in_subtree_with_the_same_label_test::test();
     // }
   });
 }

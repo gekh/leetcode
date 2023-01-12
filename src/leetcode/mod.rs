@@ -1,2 +1,2 @@
-pub mod p1519_num_of_nodes_in_subtree_with_the_same_label;
-pub mod p1519_num_of_nodes_in_subtree_with_the_same_label_test;
+pub mod p77_combinations;
+pub mod p77_combinations_test;
