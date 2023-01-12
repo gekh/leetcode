@@ -1,2 +1,2 @@
-pub mod p206_reverse_linked_list;
-pub mod p206_reverse_linked_list_test;
+pub mod p1519_num_of_nodes_in_subtree_with_the_same_label;
+pub mod p1519_num_of_nodes_in_subtree_with_the_same_label_test;
