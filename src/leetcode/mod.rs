@@ -1,2 +1,2 @@
-pub mod p2246_longest_path_with_different_adjacent_characters;
-pub mod p2246_longest_path_with_different_adjacent_characters_test;
+pub mod p198_house_robber;
+pub mod p198_house_robber_test;
