@@ -1,4 +1,4 @@
 mod leetcode;
 fn main() {
-    leetcode::p784_letter_case_permutation_test::test();
+    leetcode::p2246_longest_path_with_different_adjacent_characters_test::test();
 }

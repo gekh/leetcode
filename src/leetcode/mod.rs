@@ -1,2 +1,2 @@
-pub mod p784_letter_case_permutation;
-pub mod p784_letter_case_permutation_test;
+pub mod p2246_longest_path_with_different_adjacent_characters;
+pub mod p2246_longest_path_with_different_adjacent_characters_test;
