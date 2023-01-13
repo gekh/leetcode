@@ -2,10 +2,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn longest_path(parent: Vec<i32>, s: String) -> i32 {
-        let mut tree = vec![vec![]; (*parent.iter().max().unwrap() + 1) as usize];
-        if tree.len() == 0 {
-            return 1;
-        }
+        let mut tree = vec![vec![]; parent.len()];
 
         for (child, &parent) in parent.iter().enumerate() {
             if parent == -1 {
@@ -14,40 +11,20 @@ impl Solution {
             tree[parent as usize].push(child as usize);
         }
 
+        let b_s = s.as_bytes().iter().map(|x| x - b'a').collect::<Vec<u8>>();
         let mut max = 1;
-        let b_s = s
-            .as_bytes()
-            .into_iter()
-            .map(|x| x - b'a')
-            .collect::<Vec<u8>>();
-
-        Self::dfs(0, 0, &tree, &b_s, &mut max);
+        Self::dfs(0, &tree, &b_s, &mut max);
 
         max
     }
 
-    fn dfs(
-        cur: usize,
-        prev: usize,
-        tree: &Vec<Vec<usize>>,
-        b_s: &Vec<u8>,
-        mut max: &mut i32,
-    ) -> (u8, i32) {
-        let c = b_s[cur];
-        let mut result = (c,1);
-
-        if cur >= tree.len() {
-            return (c, 1);
-        }
-
+    fn dfs(node: usize, tree: &Vec<Vec<usize>>, b_s: &Vec<u8>, mut max: &mut i32) -> (u8, i32) {
+        let c = b_s[node];
+        let mut result = (c, 1);
         let mut lengths = vec![];
 
-        for &el in &tree[cur] {
-            if el == prev {
-                continue;
-            }
-
-            let next = Self::dfs(el, cur, &tree, &b_s, &mut max);
+        for &el in &tree[node] {
+            let next = Self::dfs(el, &tree, &b_s, &mut max);
             if next.0 != c {
                 lengths.push(next.1);
                 result.1 = result.1.max(next.1 + 1);

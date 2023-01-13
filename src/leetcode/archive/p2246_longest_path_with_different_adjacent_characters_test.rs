@@ -10,50 +10,50 @@ pub fn test() {
         17
     );
 
-    // assert_eq!(
-    //     call(vec![-1,0,1,2,3,4], "zzabab"),
-    //     5
-    // );
+    assert_eq!(
+        call(vec![-1,0,1,2,3,4], "zzabab"),
+        5
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,0,1,1,1,2,0], "bafcadgh"),
-    //     5
-    // );
+    assert_eq!(
+        call(vec![-1,0,0,1,1,1,2,0], "bafcadgh"),
+        5
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,0,1,1,2], "abacbe"),
-    //     3
-    // );
+    assert_eq!(
+        call(vec![-1,0,0,1,1,2], "abacbe"),
+        3
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,0,0], "aabc"),
-    //     3
-    // );
+    assert_eq!(
+        call(vec![-1,0,0,0], "aabc"),
+        3
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,0,0], "aaaa"),
-    //     1
-    // );
+    assert_eq!(
+        call(vec![-1,0,0,0], "aaaa"),
+        1
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,0,0], "baaa"),
-    //     3
-    // );
+    assert_eq!(
+        call(vec![-1,0,0,0], "baaa"),
+        3
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,0,0], "abaa"),
-    //     2
-    // );
+    assert_eq!(
+        call(vec![-1,0,0,0], "abaa"),
+        2
+    );
 
-    // assert_eq!(
-    //     call(vec![-1,0,1,2], "aaaa"),
-    //     1
-    // );
+    assert_eq!(
+        call(vec![-1,0,1,2], "aaaa"),
+        1
+    );
 
-    // assert_eq!(
-    //     call(vec![-1], "a"),
-    //     1
-    // );
+    assert_eq!(
+        call(vec![-1], "a"),
+        1
+    );
 }
 
 fn call(parent: Vec<i32>, s: &str) -> i32 {
