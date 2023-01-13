@@ -1,2 +1,2 @@
-pub mod p198_house_robber;
-pub mod p198_house_robber_test;
+pub mod p120_triangle;
+pub mod p120_triangle_test;
