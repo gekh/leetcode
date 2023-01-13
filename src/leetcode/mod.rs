@@ -1,2 +1,2 @@
-pub mod p77_combinations;
-pub mod p77_combinations_test;
+pub mod p784_letter_case_permutation;
+pub mod p784_letter_case_permutation_test;

@@ -1,5 +1,4 @@
 mod leetcode;
-
 fn main() {
-    leetcode::p77_combinations_test::test();
+    leetcode::p784_letter_case_permutation_test::test();
 }
