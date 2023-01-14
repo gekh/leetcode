@@ -1,4 +1,4 @@
 mod leetcode;
 fn main() {
-    leetcode::p120_triangle_test::test();
+    leetcode::p1061_lexicographically_smallest_equivalent_string_test::test();
 }

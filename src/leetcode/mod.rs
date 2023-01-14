@@ -1,2 +1,2 @@
-pub mod p120_triangle;
-pub mod p120_triangle_test;
+pub mod p1061_lexicographically_smallest_equivalent_string;
+pub mod p1061_lexicographically_smallest_equivalent_string_test;
