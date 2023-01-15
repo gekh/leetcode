@@ -1,4 +1,4 @@
 mod leetcode;
 fn main() {
-    leetcode::p1061_lexicographically_smallest_equivalent_string_test::test();
+    leetcode::p2421_number_of_good_paths_test::test();
 }

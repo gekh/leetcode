@@ -1,2 +1,2 @@
-pub mod p1061_lexicographically_smallest_equivalent_string;
-pub mod p1061_lexicographically_smallest_equivalent_string_test;
+pub mod p2421_number_of_good_paths;
+pub mod p2421_number_of_good_paths_test;
