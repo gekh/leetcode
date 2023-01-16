@@ -1,2 +1,2 @@
-pub mod p2421_number_of_good_paths;
-pub mod p2421_number_of_good_paths_test;
+pub mod p57_insert_interval;
+pub mod p57_insert_interval_test;
