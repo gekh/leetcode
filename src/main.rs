@@ -1,4 +1,4 @@
 mod leetcode;
 fn main() {
-    leetcode::p491_non_desc_subsequences_test::test();
+    leetcode::p93_restore_ip_addresses_test::test();
 }
