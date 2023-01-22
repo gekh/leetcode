@@ -1,2 +1,2 @@
-pub mod p93_restore_ip_addresses;
-pub mod p93_restore_ip_addresses_test;
+pub mod p131_palindrome_partitioning;
+pub mod p131_palindrome_partitioning_test;
