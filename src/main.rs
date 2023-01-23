@@ -1,4 +1,4 @@
 mod leetcode;
 fn main() {
-    leetcode::p131_palindrome_partitioning_test::test();
+    leetcode::p997_find_the_town_judge_test::test();
 }

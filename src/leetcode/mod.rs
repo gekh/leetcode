@@ -1,2 +1,2 @@
-pub mod p131_palindrome_partitioning;
-pub mod p131_palindrome_partitioning_test;
+pub mod p997_find_the_town_judge;
+pub mod p997_find_the_town_judge_test;
