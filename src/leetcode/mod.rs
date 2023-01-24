@@ -1,2 +1,2 @@
-pub mod p997_find_the_town_judge;
-pub mod p997_find_the_town_judge_test;
+pub mod p909_snakes_and_ladders;
+pub mod p909_snakes_and_ladders_test;
