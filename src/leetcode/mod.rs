@@ -1,2 +1,2 @@
-pub mod p909_snakes_and_ladders;
-pub mod p909_snakes_and_ladders_test;
+pub mod p2359_find_closes_node_to_given_two_numbers;
+pub mod p2359_find_closes_node_to_given_two_numbers_test;
