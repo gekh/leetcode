@@ -1,2 +1,2 @@
-pub mod p787_cheapest_flights_within_k_stops;
-pub mod p787_cheapest_flights_within_k_stops_test;
+pub mod p472_concatenated_words;
+pub mod p472_concatenated_words_test;
