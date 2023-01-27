@@ -1,2 +1,2 @@
-pub mod p2359_find_closes_node_to_given_two_numbers;
-pub mod p2359_find_closes_node_to_given_two_numbers_test;
+pub mod p787_cheapest_flights_within_k_stops;
+pub mod p787_cheapest_flights_within_k_stops_test;
