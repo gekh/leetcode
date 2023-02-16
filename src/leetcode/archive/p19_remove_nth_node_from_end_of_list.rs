@@ -25,24 +25,24 @@ impl ListNode {
 
 impl Solution {
     pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
-            let mut dummy = Some(Box::new(ListNode::new(0)));
-            dummy.as_mut().unwrap().next = head;
+        let mut dummy = Some(Box::new(ListNode::new(0)));
+        dummy.as_mut().unwrap().next = head;
 
-            let mut fast = dummy.clone();
-            let mut slow = dummy.as_mut();
+        let mut fast = dummy.clone();
+        let mut slow = dummy.as_mut();
 
-            for _ in 0..n {
-                fast = fast.unwrap().next;
-            }
+        for _ in 0..n {
+            fast = fast.unwrap().next;
+        }
 
-            while fast.as_ref().unwrap().next.is_some() {
-                fast = fast.unwrap().next;
-                slow = slow.unwrap().next.as_mut();
-            }
+        while fast.as_ref().unwrap().next.is_some() {
+            fast = fast.unwrap().next;
+            slow = slow.unwrap().next.as_mut();
+        }
 
-            let next = slow.as_ref().unwrap().next.clone();
-            slow.as_mut().unwrap().next = next.unwrap().next;
+        let next = slow.as_ref().unwrap().next.clone();
+        slow.as_mut().unwrap().next = next.unwrap().next;
 
-            dummy.unwrap().next
+        dummy.unwrap().next
     }
 }
